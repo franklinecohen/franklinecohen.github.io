@@ -1,9 +1,29 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  background: url(linedpaper.png) repeat;
+  background: url(linedpaper.png);
+  background-color: red;
 }
 #wrapper {
   width: 960px;
   margin: 20px auto;
+}
+/*makes h1 red*/
+h1, h2, h3 {
+	color: red;
+	font-weight: 600;
+}
+#summary {color: orange;
+}
+.unicorn {
+	color: purple;
+}
+#headshot {
+	width: 300px;
+	border-style: groove;
+	border-width: thin
+		}
+ul {
+	list-style: none;
+	text-align: center;
 }
