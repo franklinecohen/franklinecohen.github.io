@@ -36,6 +36,15 @@ h1, h2 {
 	border-width: 2px;
 	background-color: white;
 	margin-left: 430px;
+	}
+a:link {
+	color:blue;
+}
+a:visited{
+	color: blue;
+}
+a:hover{
+	color:hotpink;
 }
 #connect_with_me_title {
 	text-align: center;
