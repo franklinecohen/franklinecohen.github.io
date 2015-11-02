@@ -1,29 +1,42 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  background: url(linedpaper.png);
-  background-color: red;
+  background: url(linedpaper.png) repeat;
+  background-color: black;
+  margin: 1px;
 }
 #wrapper {
   width: 960px;
   margin: 20px auto;
 }
 /*makes h1 red*/
+h1 {
+	color: purple;
+}
 h1, h2, h3 {
-	color: red;
 	font-weight: 600;
 }
-#summary {color: orange;
+h1, h2 {
+	margin:4.5px
 }
 .unicorn {
 	color: purple;
 }
 #headshot {
-	width: 300px;
-	border-style: groove;
-	border-width: thin
+	width: 200px;
 		}
-ul {
+#connect_with_me {
 	list-style: none;
+	text-align: center;
+	width: 100px;
+	position: relative;
+	border-color: orange;
+	border-style: solid;
+	padding: 2px;
+	border-width: 2px;
+	background-color: white;
+	margin-left: 430px;
+}
+#connect_with_me_title {
 	text-align: center;
 }
